@@ -51,7 +51,6 @@ input {
     gap:18px;
     padding-top:90px;
     margin-top:80px;
-
     padding-bottom:38px;
 }
 
@@ -126,6 +125,8 @@ input {
     border-radius: 16px;
     width:132px;
     height:132px;
+    padding-left:20px;
+    padding-top:20px;
 }
 
 .picole_pequeno img {
