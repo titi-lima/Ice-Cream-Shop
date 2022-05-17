@@ -71,8 +71,7 @@ input {
 .picole_grande text {
     width: 270px;
     height: 39px;
-    font-family: 'Montserrat';
-    font-style: normal;
+
     font-weight: 500;
     font-size: 32px;
     line-height: 39px;
@@ -91,16 +90,23 @@ input {
 }
 
 .price {
+    margin-top: 20px;
     background: rgba(249, 199, 191, 0.5);
-    padding:8px;
+    padding:0px;
     border-radius: 8px;
-    width: 80px;
-    height: 40px;
+    width: 103px;
+    height: 45px;
+    text-align:center;
 }
 
 .price text {
+    width: 87px;
+    height: 29px;
+    font-family: 'Montserrat';
+    font-style: normal;
     font-weight: 400;
     font-size: 24px;
+    line-height: 45px;
 }
 
 .picole_pequeno {
