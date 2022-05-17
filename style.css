@@ -34,8 +34,6 @@ input {
     padding-left: 32px;
     border-radius: 7px;
     text-indent: 10px;
-    float:right;
-    display:flex;
     width: 450px;
     height: 61px;
     border: 0.5px solid rgba(96, 96, 96, 0.3);
@@ -44,12 +42,11 @@ input {
 
 .flexbox {
     display:flex;
-    margin: 0px -8px -8px -8px;
-    padding:80px 114px;
+    padding:265px 89px 110px 89px;
 }
 
 .trio {
-    margin: 20px;
+    margin: 0px 5px;
     display:grid;
     grid-template-columns: repeat(3, 1fr);
     gap:32px;
@@ -109,4 +106,23 @@ input {
     background-color: white;
     box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.04);
     border-radius: 16px;
+    padding: 20px;
+}
+
+#rodape {
+    max-width:100%;
+    background-color: #F2F2F2;
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    padding:60px 114px;
+}
+
+#marca2 {
+    width: 60px;
+    padding-left:60px;
+}
+
+.redes {
+
 }
