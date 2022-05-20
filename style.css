@@ -6,6 +6,8 @@
 body {
   background-color: #f9f9f9;
   display: inline-block;
+  max-width: 100%;
+  margin: 0px;
 }
 
 #navbar {
@@ -44,7 +46,7 @@ input {
 
 .flexbox {
   display: flex;
-  padding: 80px 89px 110px 89px;
+  padding: 80px 89px 110px 80px;
 }
 
 .trio {
